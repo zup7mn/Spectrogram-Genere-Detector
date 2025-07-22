@@ -1,0 +1,13 @@
+Plan
+1. Prepare Data
+    a. Download Music
+    b. Move music to the right folders
+    c. Use SciPy's spectogram feature to make a spectogram of each song.
+    d. Store these specograms and the "genre" tag in a DF
+    e. Create a method that will turn a spectogram from whatever format SciPy gives me into a tensor
+    g. Make train, test, and validation sets
+
+2. Train Models
+    a. Create a CNN model to try and identify the song genre based on the spectogram image.
+    b. use a conventional NN to the same end. See which works better
+    c. look into using a transformer to detect genre
