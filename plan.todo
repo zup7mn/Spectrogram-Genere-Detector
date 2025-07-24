@@ -1,0 +1,19 @@
+Prepare the Data:
+    ☐ Download the music playlists
+    ☐ Move the music to the right folders
+    ☐ Organize the playlists by genre
+    ☐ Convert all the audio file to mono
+    ☐ Resample the audio files to 8kHz
+    ☐ Run the audio through pytorch's spectrogram feature
+    ☐ Save the spectrograms in a dataframe each with a genre label
+    ☐ Discover how to best store the spectrogram image for a CNN (may involve lots of experimentation)
+    ☐ Split the data into training, testing, and validation sets
+
+Train the Model:
+    ☐ Create a few different models to train on my data. (CNN, NN, transformer (?))
+        ☐ use hyperparameter tuning to find the best model
+
+
+Reflect:
+    ☐ How good of a model did I make?
+    ☐ What challenges appeared?
